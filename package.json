@@ -4,6 +4,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "lint": "next lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -29,6 +30,8 @@
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
     "babel-loader": "^8.2.3",
+    "eslint": "^8.1.0",
+    "eslint-config-next": "11.1.2",
     "storybook-addon-performance": "^0.16.1",
     "typescript": "4.3.2"
   }
