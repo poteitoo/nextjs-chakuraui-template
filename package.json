@@ -5,6 +5,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "format": "prettier --write ./src/",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -32,6 +33,8 @@
     "babel-loader": "^8.2.3",
     "eslint": "^8.1.0",
     "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "8.3.0",
+    "prettier": "2.4.1",
     "storybook-addon-performance": "^0.16.1",
     "typescript": "4.3.2"
   }
